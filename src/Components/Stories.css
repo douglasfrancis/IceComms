@@ -1,0 +1,14 @@
+#stories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.story {
+    min-width: 200px;
+width: 25vw;
+display: flex;
+justify-content: center;
+align-items:center;
+}
