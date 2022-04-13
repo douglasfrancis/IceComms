@@ -5,8 +5,7 @@ import Section1 from "./Components/Section1";
 import Section2 from "./Components/Section2";
 import Section3 from "./Components/Section3";
 import Stories from "./Components/Stories";
-
-
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -22,6 +21,8 @@ function App() {
       <Stories />
 
       <Benefits />
+
+      <Footer />
     </>
   );
 }

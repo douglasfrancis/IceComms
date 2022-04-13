@@ -1,0 +1,36 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 250px;
+    background-color: #121212;
+    padding: 2rem;
+}
+
+#logo-white{
+    height: 15px;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+}
+
+footer a{
+ color: white;
+}
+
+footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: unset;
+    border: unset;
+
+}
