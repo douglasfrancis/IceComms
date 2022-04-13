@@ -89,3 +89,15 @@ h1{
         display: none;
     }
 }
+
+@media only screen and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .section-img{
+        width: 30vw;
+        height: 450px;
+    }
+    .section-desc-black, .section-desc-white{
+        width: 70vw;
+        height: 450px;
+    }
+}

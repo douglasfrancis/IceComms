@@ -17,7 +17,6 @@
 .story-img{
     position: absolute;
     left: 0;
-    min-width: 200px;
     width: 25vw;
     height: 450px;
     object-fit: cover;
@@ -28,8 +27,7 @@
     z-index: 999;
     padding: 20px;
     color: white;
-    min-width: 200px;
-    width: 25vw;
+    width: auto;
     height: 225px;
     position: absolute;
     top: 50%;
@@ -54,5 +52,17 @@
     }
 
    
+}
+
+
+@media only screen and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    .story, .story-img{
+        width: 50vw;
+    }
+
+    #stories{
+        flex-wrap: wrap;
+    }
 }
 
