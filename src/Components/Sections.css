@@ -1,9 +1,12 @@
 section{
     display: flex;
+    flex-direction: row;
 }
 
 .section-img{
     width: 60vw;
+    object-fit: cover;
+    object-position: center;
 }
 
 .section-desc-black{
@@ -58,4 +61,20 @@ h1{
     font-weight: bold;
     font-size: 0.7rem;
     letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px){
+    section{
+        flex-direction: column;
+    }
+
+    .section-img, .section-desc-black, .section-desc-white{
+        width: 100vw;
+        height: 450px;
+    }
+
+    h1{
+        font-size: 5vw;
+        line-height: 5vw;
+    }
 }

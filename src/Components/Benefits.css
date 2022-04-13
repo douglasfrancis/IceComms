@@ -18,3 +18,19 @@
 .benefit p{
     color: rgb(150, 150, 150);
 }
+
+@media only screen and (max-width: 600px){
+    #benefits{
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .benefit{
+        width: 80vw;
+        height: auto;
+        padding: 2rem 10vw;
+        text-align: center;
+
+    }
+
+}

@@ -32,3 +32,18 @@ nav a {
 #logo{
     height: 15px;
 }
+
+#burger{
+    width: 40px;
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+   header button, header nav{
+    display: none;
+   }
+#burger{
+    display: block;
+}
+   
+}

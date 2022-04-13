@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Burger from '../images/burger-icon.png'
 
 export default function Header() {
   return (
@@ -13,6 +14,8 @@ export default function Header() {
         </nav>
 
         <button>Get An Invite</button>
+
+        <img id='burger' src={Burger} alt="burger menu"/>
 
     </header>
   )

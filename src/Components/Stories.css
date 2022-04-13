@@ -1,13 +1,11 @@
 #stories{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    height: 400px;
+    width: 100vw;
 }
 
 .story {
     position: relative;
-    min-width: 200px;
     width: 25vw;
     height: 450px;
     display: flex;
@@ -45,4 +43,16 @@
     border-top: 0.5px solid white;
 }
 
+
+@media only screen and (max-width: 600px){
+   
+    #stories{
+        flex-direction: column;
+    }
+    .story, .story-img,.img-desc {
+        width: 100vw;
+    }
+
+   
+}
 
