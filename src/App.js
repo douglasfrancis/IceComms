@@ -1,4 +1,5 @@
 //components
+import Benefits from "./Components/Benefits";
 import Header from "./Components/Header";
 import Section1 from "./Components/Section1";
 import Section2 from "./Components/Section2";
@@ -9,7 +10,7 @@ import Stories from "./Components/Stories";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
 
       <Section1 />
@@ -19,7 +20,9 @@ function App() {
       <Section3 />
 
       <Stories />
-    </div>
+
+      <Benefits />
+    </>
   );
 }
 
