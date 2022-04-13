@@ -1,8 +1,12 @@
 section{
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
+#hiker, #photographer{
+    display: none;
+}
 .section-img{
     width: 60vw;
     object-fit: cover;
@@ -74,7 +78,14 @@ h1{
     }
 
     h1{
-        font-size: 5vw;
-        line-height: 5vw;
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+
+    #hiker, #photographer{
+        display: block;
+    }
+    #hiker-right, #photographer-right{
+        display: none;
     }
 }

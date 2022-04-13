@@ -4,7 +4,9 @@ import arrow from '../images/white.png'
 
 export default function Section1() {
   return (
-   <section>
+   <section>      
+      <img className='section-img' src={'https://ice-nas.fra1.digitaloceanspaces.com/development/play/banner1.jpg'} alt="Hiker" id='hiker'/>
+
 
        <div className='section-desc-black'>
             <h1>Create and share your photo stories.</h1>
@@ -13,8 +15,8 @@ export default function Section1() {
 
             <a className='get-invite'>Get an Invite <img className='arrow' src={arrow} alt="arrow" /></a>
        </div>
+       <img className='section-img' src={'https://ice-nas.fra1.digitaloceanspaces.com/development/play/banner1.jpg'} alt="Hiker" id='hiker-right'/>
 
-       <img className='section-img' src={'https://ice-nas.fra1.digitaloceanspaces.com/development/play/banner1.jpg'} alt="Hiker"/>
 
 
    </section>
